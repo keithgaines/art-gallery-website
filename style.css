@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url('assets\\mobile\\image-hero.jpg');
+    background-repeat: no-repeat;
+    width: 375px;
+    height: 726px;
+}
+
+.heroimage1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
+.headertext {
+    padding: 5%;
+}
+.headertext h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 60px;
+    line-height: 88px;
+}
+
+.bodytext {
+    padding: 5%;
+}
+
+button {
+    margin-left: 5%;
+}
+
+.location-btn {
+    width: 260px;
+    height: 83px;
+    padding: 20px;
+    background: linear-gradient(to right, black 70%, #D5966C 30%);
+    color: white;
+    border: none;
+  }
+
+.location-btn img {
+    padding-left: 30%;
+}
+
+.galleryimage1 {
+    height: 320px;
+}
+
+.galleryimage2 {
+    height: 480px;
+    margin-bottom: 25px;
+}
+
+.galleryimage3 {
+    height: 200px;
+    margin-bottom: 25px;
+}
+  
+.beinspired {
+    background-color: black;
+    color: white;
+    height: 293px;
+    padding: 10%;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 336px;
+    padding: 10%;
+}
+
+.footericons li {
+    display: inline-block;
+    padding-right: 20px;
+}
