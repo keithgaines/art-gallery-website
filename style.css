@@ -39,7 +39,6 @@ h1 {
     margin-bottom: 50px;
     margin: 0;
     padding: 0;
-    width: 100vw;
     overflow: hidden;
 }
 .bodytext {
@@ -64,21 +63,18 @@ button {
 
 .galleryimage1 {
     height: 320px;
-    padding-left: 5%;
     padding-right: 5%;
 }
 
 .galleryimage2 {
     height: 480px;
     margin-bottom: 25px;
-    padding-left: 5%;
     padding-right: 5%;
 }
 
 .galleryimage3 {
     height: 200px;
     margin-bottom: 25px;
-    padding-left: 5%;
     padding-right: 5%;
 }
   
