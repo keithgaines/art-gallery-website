@@ -1,6 +1,13 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 70px;
 }
 
 .header {
@@ -22,10 +29,16 @@ body {
 }
 .headertext h1 {
     font-family: 'Big Shoulders Display', cursive;
-    font-size: 60px;
     line-height: 88px;
 }
 
+
+.container {
+    margin-bottom: 50px;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
 .bodytext {
     padding: 5%;
 }
@@ -63,15 +76,18 @@ button {
 .beinspired {
     background-color: black;
     color: white;
-    height: 293px;
     padding: 10%;
+    padding-bottom: 25px;
+    margin-bottom: 10%;
 }
+
 
 .footer {
     background-color: black;
     color: white;
-    height: 336px;
     padding: 10%;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
 }
 
 .footericons li {
