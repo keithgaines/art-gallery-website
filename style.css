@@ -94,3 +94,13 @@ button {
 .home-btn img {
     padding-right: 30%;
 }
+
+.locationinfo {
+    background-color: black;
+    color: white;
+    padding: 10%;
+}
+
+.locationstreet h3 {
+    color: #D5966C;
+}
