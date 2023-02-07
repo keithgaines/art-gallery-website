@@ -79,3 +79,18 @@ button {
     display: inline-block;
     padding-right: 20px;
 }
+
+.home-btn {
+    width: 260px;
+    height: 83px;
+    padding: 20px;
+    background: linear-gradient(to left, black 70%, #D5966C 30%);
+    color: white;
+    border: none;
+    position: absolute;
+    margin: 0;
+}
+
+.home-btn img {
+    padding-right: 30%;
+}
