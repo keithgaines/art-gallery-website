@@ -99,8 +99,16 @@ button {
     background-color: black;
     color: white;
     padding: 10%;
+    height: 493px;
+
 }
 
 .locationstreet h3 {
     color: #D5966C;
+}
+
+.locationfooter {
+    background-color: #D5966C;
+    color: black;
+    padding: 10%;
 }
