@@ -37,7 +37,6 @@ button {
 .location-btn {
     width: 260px;
     height: 83px;
-    padding: 20px;
     background: linear-gradient(to right, black 70%, #D5966C 30%);
     color: white;
     border: none;
