@@ -175,7 +175,7 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
         width: 720px;
-        height: 1131px;
+        height: 1000px;
         grid-gap: 10px;
         padding: 5%;
     }
@@ -224,6 +224,10 @@
     .container .headertext {
         margin: 0;
         height: 5vh;
+    }
+
+    .footer {
+        margin-top: 0;
     }
 }
 
