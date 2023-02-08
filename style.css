@@ -148,10 +148,6 @@
         font-size: 36px;
     }
 
-    .heroimage1 {
-        position: relative;
-    }
-
     .header {
         position: relative;
     }
@@ -164,47 +160,70 @@
         right: 100px;
     }
 
+    .heroimage1 {
+        position: relative;
+        display: block;
+        object-fit: contain;
+    }
+
+    .heroimage1 img {
+        width: 50%;
+    }
+
     .container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
-        grid-gap: 5px;
-        width: 689px;
+        width: 720px;
         height: 1131px;
-        padding: 10%;
+        grid-gap: 10px;
+        padding: 5%;
     }
 
-    .container .headertext {
-        grid-row: 1;
-        grid-column: 1;
-        height: 5vh;
+    .container img {
+        width: 50vw;
     }
-
-    .headertext h1 {
-        font-size: 36px;
-        line-height: 40px;
-    }
-
+    
     .galleryimage1 {
         grid-row: 1;
         grid-column: 2;
+        margin: 0;
+        width: 100%;
     }
 
+    .galleryimage1 img {
+        width: 100%;
+    }
+    
     .galleryimage2 {
-        grid-row: 2/3;
+        grid-row: 2 / 3;
         grid-column: 1;
+        margin: 0;
     }
 
+    .galleryimage2 img {
+        width: 100%;
+    }
+    
     .galleryimage3 {
         grid-row: 2;
         grid-column: 2;
+        margin: 0;
+    }
+
+    .galleryimage3 img {
+        width: 100%;
     }
 
     .beinspired {
         grid-row: 3;
         grid-column: 2;
-        margin-top: 20px;
+        width: 100%;
     }
-
+    
+    .container .headertext {
+        margin: 0;
+        height: 5vh;
+    }
 }
 
