@@ -16,6 +16,10 @@
         margin-bottom: 50px;
     }
     
+    .herotext {
+        margin-bottom: 50px;
+    }
+
     .heroimage1 {
         display: block;
         object-fit: contain;
@@ -203,3 +207,4 @@
     }
 
 }
+
