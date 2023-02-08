@@ -131,3 +131,29 @@ button {
     color: black;
     padding: 10%;
 }
+
+@media (width: 768px) {
+
+    .wholecontainer {
+        width: 768px;
+        height: 2287px;
+    }
+
+    .heroimage1 {
+        position: relative;
+        /* width: 437px;
+        height: 700px; */
+    }
+
+    .header {
+        position: relative;
+    }
+
+    .herotext {
+        width: 339px;
+        height: 410px;
+        position: absolute;
+        top: 10px;
+        right: 100px;
+    }
+}
