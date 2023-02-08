@@ -1,146 +1,147 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Outfit', sans-serif;
-    font-size: 18px;
+@media (min-width: 375px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Outfit', sans-serif;
+        font-size: 18px;
+    }
+    
+    h1 {
+        font-family: 'Big Shoulders Display', cursive;
+        font-size: 70px;
+    }
+    
+    .header {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+    .heroimage1 {
+        display: block;
+        object-fit: contain;
+    }
+
+    .heroimage1 img {
+        width: 100%;
+    }
+    
+    .headertext {
+        padding: 5%;
+    }
+    .headertext h1 {
+        font-family: 'Big Shoulders Display', cursive;
+        line-height: 88px;
+    }
+    
+    .container {
+        margin-bottom: 50px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container img {
+        width: 100vw;
+    }
+    
+    .bodytext {
+        padding: 5%;
+    }
+    
+    button {
+        margin-left: 5%;
+    }
+    
+    .location-btn {
+        width: 260px;
+        height: 83px;
+        background: linear-gradient(to right, black 70%, #D5966C 30%);
+        color: white;
+        border: none;
+      }
+    
+    .location-btn img {
+        padding-left: 30%;
+    }
+    
+    .galleryimage1 {
+        /* height: 320px; */
+        padding-right: 5%;
+    }
+    
+    .galleryimage2 {
+        /* height: 480px; */
+        margin-bottom: 25px;
+        padding-right: 5%;
+    }
+    
+    .galleryimage3 {
+        /* height: 200px; */
+        margin-bottom: 25px;
+        padding-right: 5%;
+    }
+      
+    .beinspired {
+        background-color: black;
+        color: white;
+        padding: 10%;
+        padding-bottom: 25px;
+        margin-bottom: 10%;
+        width: 100vw;
+    }
+    
+    
+    .footer {
+        background-color: black;
+        color: white;
+        padding: 10%;
+        font-family: 'Outfit', sans-serif;
+        font-size: 18px;
+        margin-top: 100px;
+        overflow: hidden;
+    }
+    
+    .footericons li {
+        display: inline-block;
+        padding-right: 20px;
+    }
+    
+    .home-btn {
+        width: 260px;
+        height: 83px;
+        padding: 20px;
+        background: linear-gradient(to left, black 70%, #D5966C 30%);
+        color: white;
+        border: none;
+        position: absolute;
+        margin: 0;
+    }
+    
+    .home-btn img {
+        padding-right: 30%;
+    }
+    
+    .locationinfo {
+        background-color: black;
+        color: white;
+        padding: 10%;
+        height: 493px;
+    
+    }
+    
+    .locationstreet h3 {
+        color: #D5966C;
+    }
+    
+    .locationfooter {
+        background-color: #D5966C;
+        color: black;
+        padding: 10%;
+    }
 }
-
-h1 {
-    font-family: 'Big Shoulders Display', cursive;
-    font-size: 70px;
-}
-
-.header {
-    background-image: url('assets\\mobile\\image-hero.jpg');
-    background-repeat: no-repeat;
-    width: 100%;
-    margin-bottom: 50px;
-}
-
-.heroimage1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    object-fit: cover;
-}
-
-.headertext {
-    padding: 5%;
-}
-.headertext h1 {
-    font-family: 'Big Shoulders Display', cursive;
-    line-height: 88px;
-}
-
-
-.container {
-    margin-bottom: 50px;
-    margin: 0;
-    padding: 0;
-}
-.bodytext {
-    padding: 5%;
-}
-
-button {
-    margin-left: 5%;
-}
-
-.location-btn {
-    width: 260px;
-    height: 83px;
-    background: linear-gradient(to right, black 70%, #D5966C 30%);
-    color: white;
-    border: none;
-  }
-
-.location-btn img {
-    padding-left: 30%;
-}
-
-.galleryimage1 {
-    height: 320px;
-    padding-right: 5%;
-}
-
-.galleryimage2 {
-    height: 480px;
-    margin-bottom: 25px;
-    padding-right: 5%;
-}
-
-.galleryimage3 {
-    height: 200px;
-    margin-bottom: 25px;
-    padding-right: 5%;
-}
-  
-.beinspired {
-    background-color: black;
-    color: white;
-    padding: 10%;
-    padding-bottom: 25px;
-    margin-bottom: 10%;
-}
-
-
-.footer {
-    background-color: black;
-    color: white;
-    padding: 10%;
-    font-family: 'Outfit', sans-serif;
-    font-size: 18px;
-    margin-top: 100px;
-    overflow: hidden;
-}
-
-.footericons li {
-    display: inline-block;
-    padding-right: 20px;
-}
-
-.home-btn {
-    width: 260px;
-    height: 83px;
-    padding: 20px;
-    background: linear-gradient(to left, black 70%, #D5966C 30%);
-    color: white;
-    border: none;
-    position: absolute;
-    margin: 0;
-}
-
-.home-btn img {
-    padding-right: 30%;
-}
-
-.locationinfo {
-    background-color: black;
-    color: white;
-    padding: 10%;
-    height: 493px;
-
-}
-
-.locationstreet h3 {
-    color: #D5966C;
-}
-
-.locationfooter {
-    background-color: #D5966C;
-    color: black;
-    padding: 10%;
-}
-
-@media (width: 768px) {
+@media (min-width: 768px) {
 
     h1 {
         font-size: 36px;
-    }
-
-    .wholecontainer {
-        width: 768px;
-        height: 2287px;
     }
 
     .heroimage1 {
@@ -188,9 +189,6 @@ button {
     .galleryimage2 {
         grid-row: 2/3;
         grid-column: 1;
-    }
-
-    .galleryimage2 img {
     }
 
     .galleryimage3 {
