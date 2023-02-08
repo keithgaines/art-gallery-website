@@ -134,6 +134,10 @@ button {
 
 @media (width: 768px) {
 
+    h1 {
+        font-size: 36px;
+    }
+
     .wholecontainer {
         width: 768px;
         height: 2287px;
@@ -141,8 +145,6 @@ button {
 
     .heroimage1 {
         position: relative;
-        /* width: 437px;
-        height: 700px; */
     }
 
     .header {
@@ -153,7 +155,53 @@ button {
         width: 339px;
         height: 410px;
         position: absolute;
-        top: 10px;
+        top: 50px;
         right: 100px;
     }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 5px;
+        width: 689px;
+        height: 1131px;
+        padding: 10%;
+    }
+
+    .container .headertext {
+        grid-row: 1;
+        grid-column: 1;
+        height: 5vh;
+    }
+
+    .headertext h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .galleryimage1 {
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+    .galleryimage2 {
+        grid-row: 2/3;
+        grid-column: 1;
+    }
+
+    .galleryimage2 img {
+    }
+
+    .galleryimage3 {
+        grid-row: 2;
+        grid-column: 2;
+    }
+
+    .beinspired {
+        grid-row: 3;
+        grid-column: 2;
+        margin-top: 20px;
+    }
+
 }
