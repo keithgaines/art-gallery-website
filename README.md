@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://www.frontendmentor.io/solutions/art-gallery-website-vj-yMrhrhH)
-- Live Site URL: [](https://keithgaines.github.io/art-gallery-website/)
+- Solution URL: [https://www.frontendmentor.io/solutions/art-gallery-website-vj-yMrhrhH]
+- Live Site URL: [https://keithgaines.github.io/art-gallery-website/]
 
 ## My process
 
