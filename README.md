@@ -58,4 +58,3 @@ As a developer, I am dedicated to improving my skills in media calls and respons
 ### Screenshot
 
 ![](./desktopscreenshot.png)
-![](./mobilescreenshot.png)
