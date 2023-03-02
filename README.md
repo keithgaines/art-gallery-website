@@ -1,4 +1,4 @@
-# Frontend Mentor - Art gallery website solution
+# Frontend Mentor - Art gallery website
 
 This is a solution to the [Art gallery website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/art-gallery-website-yVdrZlxyA). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
@@ -15,8 +15,6 @@ This is a solution to the [Art gallery website challenge on Frontend Mentor](htt
 - [Screenshot](#screenshot)
 
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -29,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/art-gallery-website-vj-yMrhrhH]
-- Live Site URL: [https://keithgaines.github.io/art-gallery-website/]
+- Solution URL: https://www.frontendmentor.io/solutions/art-gallery-website-vj-yMrhrhH
+- Live Site URL: https://keithgaines.github.io/art-gallery-website/
 
 ## My process
 
@@ -58,4 +56,3 @@ As a developer, I am dedicated to improving my skills in media calls and respons
 ### Screenshot
 
 ![](./desktopscreenshot.png)
-![](./mobilescreenshot.png)
