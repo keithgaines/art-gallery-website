@@ -371,6 +371,7 @@ button {
     .container .headertext {
         margin: 0;
         height: 5vh;
+        padding: 20%;
     }
 
     .footer {
